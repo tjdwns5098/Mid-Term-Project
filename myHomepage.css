@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: #333;
+    color: gray;
+}
 .container {
     max-width: 700px;
     margin: 0 auto;
@@ -22,6 +26,7 @@ header {
 header>p {
     font-size: 2rem;
     font-weight: 700;
+    color: #999
 }
 header>ul {
     display: flex;
@@ -34,6 +39,7 @@ header>ul>li>a {
     text-decoration: none;
     font-weight: 800;
     padding-bottom: 5px;
+    color: white;
 }
 header>ul>li:first-child>a {
     border-bottom: 5px solid white;
@@ -46,6 +52,7 @@ section {
 }
 section>h2 {
     margin-bottom: 1.1rem;
+    color: white;
 }
 section>p:first-of-type {
     font-size: 1.5rem;
