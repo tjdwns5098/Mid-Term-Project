@@ -51,6 +51,9 @@ header>ul>li>a:hover {
     header {
       flex-direction: column;
     }
+    header>ul {
+        flex-direction: column;
+    }
 }
 section {
     padding: 0 3rem;
